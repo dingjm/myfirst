@@ -14,6 +14,7 @@
 		BD620C341BB27ECA001ED1DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD620C331BB27ECA001ED1DD /* Images.xcassets */; };
 		BD620C371BB27ECA001ED1DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD620C351BB27ECA001ED1DD /* LaunchScreen.xib */; };
 		BD620C431BB27ECA001ED1DD /* testgitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD620C421BB27ECA001ED1DD /* testgitTests.m */; };
+		BD620C4E1BB280D8001ED1DD /* nnnn.m in Sources */ = {isa = PBXBuildFile; fileRef = BD620C4D1BB280D8001ED1DD /* nnnn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BD620C3C1BB27ECA001ED1DD /* testgitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testgitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD620C411BB27ECA001ED1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD620C421BB27ECA001ED1DD /* testgitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testgitTests.m; sourceTree = "<group>"; };
+		BD620C4C1BB280D8001ED1DD /* nnnn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nnnn.h; sourceTree = "<group>"; };
+		BD620C4D1BB280D8001ED1DD /* nnnn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nnnn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				BD620C331BB27ECA001ED1DD /* Images.xcassets */,
 				BD620C351BB27ECA001ED1DD /* LaunchScreen.xib */,
 				BD620C261BB27ECA001ED1DD /* Supporting Files */,
+				BD620C4C1BB280D8001ED1DD /* nnnn.h */,
+				BD620C4D1BB280D8001ED1DD /* nnnn.m */,
 			);
 			path = testgit;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD620C2F1BB27ECA001ED1DD /* ViewController.m in Sources */,
+				BD620C4E1BB280D8001ED1DD /* nnnn.m in Sources */,
 				BD620C2C1BB27ECA001ED1DD /* AppDelegate.m in Sources */,
 				BD620C291BB27ECA001ED1DD /* main.m in Sources */,
 			);
